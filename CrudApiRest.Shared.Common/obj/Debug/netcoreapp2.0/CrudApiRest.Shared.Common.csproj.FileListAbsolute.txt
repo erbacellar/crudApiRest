@@ -1,0 +1,9 @@
+C:\GIT\CrudApiRest\CrudApiRest.Shared.Common\bin\Debug\netcoreapp2.0\CrudApiRest.Shared.Common.deps.json
+C:\GIT\CrudApiRest\CrudApiRest.Shared.Common\bin\Debug\netcoreapp2.0\CrudApiRest.Shared.Common.dll
+C:\GIT\CrudApiRest\CrudApiRest.Shared.Common\bin\Debug\netcoreapp2.0\CrudApiRest.Shared.Common.pdb
+C:\GIT\CrudApiRest\CrudApiRest.Shared.Common\obj\Debug\netcoreapp2.0\CrudApiRest.Shared.Common.csproj.CoreCompileInputs.cache
+C:\GIT\CrudApiRest\CrudApiRest.Shared.Common\obj\Debug\netcoreapp2.0\CrudApiRest.Shared.Common.AssemblyInfoInputs.cache
+C:\GIT\CrudApiRest\CrudApiRest.Shared.Common\obj\Debug\netcoreapp2.0\CrudApiRest.Shared.Common.AssemblyInfo.cs
+C:\GIT\CrudApiRest\CrudApiRest.Shared.Common\obj\Debug\netcoreapp2.0\CrudApiRest.Shared.Common.dll
+C:\GIT\CrudApiRest\CrudApiRest.Shared.Common\obj\Debug\netcoreapp2.0\CrudApiRest.Shared.Common.pdb
+C:\GIT\CrudApiRest\CrudApiRest.Shared.Common\obj\Debug\netcoreapp2.0\CrudApiRest.Shared.Common.csprojAssemblyReference.cache

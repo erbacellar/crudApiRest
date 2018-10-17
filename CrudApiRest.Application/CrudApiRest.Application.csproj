@@ -1,0 +1,12 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CrudApiRest.Data\CrudApiRest.Data.csproj" />
+    <ProjectReference Include="..\CrudApiRest.Shared.Common\CrudApiRest.Shared.Common.csproj" />
+  </ItemGroup>
+
+</Project>
