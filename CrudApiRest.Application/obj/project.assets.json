@@ -1060,11 +1060,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\GIT\\CrudApiRest\\CrudApiRest.Application\\CrudApiRest.Application.csproj",
+      "projectUniqueName": "C:\\GIT\\teste\\crudApiRest\\CrudApiRest.Application\\CrudApiRest.Application.csproj",
       "projectName": "CrudApiRest.Application",
-      "projectPath": "C:\\GIT\\CrudApiRest\\CrudApiRest.Application\\CrudApiRest.Application.csproj",
+      "projectPath": "C:\\GIT\\teste\\crudApiRest\\CrudApiRest.Application\\CrudApiRest.Application.csproj",
       "packagesPath": "C:\\Users\\erbacellar\\.nuget\\packages\\",
-      "outputPath": "C:\\GIT\\CrudApiRest\\CrudApiRest.Application\\obj\\",
+      "outputPath": "C:\\GIT\\teste\\crudApiRest\\CrudApiRest.Application\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -1082,11 +1082,11 @@
       "frameworks": {
         "netcoreapp2.0": {
           "projectReferences": {
-            "C:\\GIT\\CrudApiRest\\CrudApiRest.Data\\CrudApiRest.Data.csproj": {
-              "projectPath": "C:\\GIT\\CrudApiRest\\CrudApiRest.Data\\CrudApiRest.Data.csproj"
+            "C:\\GIT\\teste\\crudApiRest\\CrudApiRest.Data\\CrudApiRest.Data.csproj": {
+              "projectPath": "C:\\GIT\\teste\\crudApiRest\\CrudApiRest.Data\\CrudApiRest.Data.csproj"
             },
-            "C:\\GIT\\CrudApiRest\\CrudApiRest.Shared.Common\\CrudApiRest.Shared.Common.csproj": {
-              "projectPath": "C:\\GIT\\CrudApiRest\\CrudApiRest.Shared.Common\\CrudApiRest.Shared.Common.csproj"
+            "C:\\GIT\\teste\\crudApiRest\\CrudApiRest.Shared.Common\\CrudApiRest.Shared.Common.csproj": {
+              "projectPath": "C:\\GIT\\teste\\crudApiRest\\CrudApiRest.Shared.Common\\CrudApiRest.Shared.Common.csproj"
             }
           }
         }

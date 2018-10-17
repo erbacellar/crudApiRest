@@ -12891,11 +12891,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\GIT\\CrudApiRest\\CrudApiRest.WebApi\\CrudApiRest.WebApi.csproj",
+      "projectUniqueName": "C:\\GIT\\teste\\crudApiRest\\CrudApiRest.WebApi\\CrudApiRest.WebApi.csproj",
       "projectName": "CrudApiRest.WebApi",
-      "projectPath": "C:\\GIT\\CrudApiRest\\CrudApiRest.WebApi\\CrudApiRest.WebApi.csproj",
+      "projectPath": "C:\\GIT\\teste\\crudApiRest\\CrudApiRest.WebApi\\CrudApiRest.WebApi.csproj",
       "packagesPath": "C:\\Users\\erbacellar\\.nuget\\packages\\",
-      "outputPath": "C:\\GIT\\CrudApiRest\\CrudApiRest.WebApi\\obj\\",
+      "outputPath": "C:\\GIT\\teste\\crudApiRest\\CrudApiRest.WebApi\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -12913,14 +12913,14 @@
       "frameworks": {
         "netcoreapp2.0": {
           "projectReferences": {
-            "C:\\GIT\\CrudApiRest\\CrudApiRest.Application\\CrudApiRest.Application.csproj": {
-              "projectPath": "C:\\GIT\\CrudApiRest\\CrudApiRest.Application\\CrudApiRest.Application.csproj"
+            "C:\\GIT\\teste\\crudApiRest\\CrudApiRest.Application\\CrudApiRest.Application.csproj": {
+              "projectPath": "C:\\GIT\\teste\\crudApiRest\\CrudApiRest.Application\\CrudApiRest.Application.csproj"
             },
-            "C:\\GIT\\CrudApiRest\\CrudApiRest.Data\\CrudApiRest.Data.csproj": {
-              "projectPath": "C:\\GIT\\CrudApiRest\\CrudApiRest.Data\\CrudApiRest.Data.csproj"
+            "C:\\GIT\\teste\\crudApiRest\\CrudApiRest.Data\\CrudApiRest.Data.csproj": {
+              "projectPath": "C:\\GIT\\teste\\crudApiRest\\CrudApiRest.Data\\CrudApiRest.Data.csproj"
             },
-            "C:\\GIT\\CrudApiRest\\CrudApiRest.Shared.Common\\CrudApiRest.Shared.Common.csproj": {
-              "projectPath": "C:\\GIT\\CrudApiRest\\CrudApiRest.Shared.Common\\CrudApiRest.Shared.Common.csproj"
+            "C:\\GIT\\teste\\crudApiRest\\CrudApiRest.Shared.Common\\CrudApiRest.Shared.Common.csproj": {
+              "projectPath": "C:\\GIT\\teste\\crudApiRest\\CrudApiRest.Shared.Common\\CrudApiRest.Shared.Common.csproj"
             }
           }
         }

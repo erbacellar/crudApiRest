@@ -1023,11 +1023,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\GIT\\CrudApiRest\\CrudApiRest.Shared.Common\\CrudApiRest.Shared.Common.csproj",
+      "projectUniqueName": "C:\\GIT\\teste\\crudApiRest\\CrudApiRest.Shared.Common\\CrudApiRest.Shared.Common.csproj",
       "projectName": "CrudApiRest.Shared.Common",
-      "projectPath": "C:\\GIT\\CrudApiRest\\CrudApiRest.Shared.Common\\CrudApiRest.Shared.Common.csproj",
+      "projectPath": "C:\\GIT\\teste\\crudApiRest\\CrudApiRest.Shared.Common\\CrudApiRest.Shared.Common.csproj",
       "packagesPath": "C:\\Users\\erbacellar\\.nuget\\packages\\",
-      "outputPath": "C:\\GIT\\CrudApiRest\\CrudApiRest.Shared.Common\\obj\\",
+      "outputPath": "C:\\GIT\\teste\\crudApiRest\\CrudApiRest.Shared.Common\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
