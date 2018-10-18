@@ -5,6 +5,7 @@ using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
 using System.Net;
+using System.Net.Http;
 
 namespace CrudApiRest.WebApi.Controllers
 {
@@ -22,7 +23,7 @@ namespace CrudApiRest.WebApi.Controllers
         [HttpGet]
         [Route("")]
         [ProducesResponseType(typeof(object), (int)HttpStatusCode.OK)]
-        [ProducesResponseType(typeof(ArgumentOutOfRangeException), (int)HttpStatusCode.NotFound)]
+        [ProducesResponseType((int)HttpStatusCode.InternalServerError)]
         public IEnumerable<User> Get(PagingData paging)
         {
             return _service.List(paging);
@@ -31,49 +32,80 @@ namespace CrudApiRest.WebApi.Controllers
         [HttpGet]
         [Route("{id}")]
         [ProducesResponseType(typeof(object), (int)HttpStatusCode.OK)]
-        [ProducesResponseType(typeof(ArgumentOutOfRangeException), (int)HttpStatusCode.NotFound)]
-        public User Get(int id)
+        [ProducesResponseType((int)HttpStatusCode.NotFound)]
+        public dynamic GetById(int id)
         {
-            return _service.FindById(id);
+            var result = _service.FindById(id);
+            if (result != null)
+                return result;
+            else
+                return NotFound();
+        }
+
+        [HttpGet]
+        [Route("{id}/GenerateToken")]
+        [ProducesResponseType(typeof(object), (int)HttpStatusCode.OK)]
+        [ProducesResponseType((int)HttpStatusCode.NotFound)]
+        public dynamic GetToken(int id)
+        {
+            var result = _service.GetJwtToken(id);
+            if (result != null)
+                return result;
+            else
+                return NotFound();
         }
 
         [HttpPost]
         [ProducesResponseType(typeof(object), (int)HttpStatusCode.OK)]
-        [ProducesResponseType(typeof(ArgumentOutOfRangeException), (int)HttpStatusCode.NotFound)]
-        public ActionResult Post([FromBody] User user)
+        [ProducesResponseType((int)HttpStatusCode.InternalServerError)]
+        public dynamic Post([FromBody] User user)
         {
-            _service.Insert(user);
-            return Ok();
+            var result = _service.Insert(user);
+            if (result != null)
+                return result;
+            else
+                return new StatusCodeResult((int)HttpStatusCode.InternalServerError);
         }
 
         [HttpPut]
         [Route("{id}")]
         [ProducesResponseType(typeof(object), (int)HttpStatusCode.OK)]
-        [ProducesResponseType(typeof(ArgumentOutOfRangeException), (int)HttpStatusCode.NotFound)]
-        public ActionResult Put(int id, [FromBody] User user)
+        [ProducesResponseType((int)HttpStatusCode.NotFound)]
+        public dynamic Put(int id, [FromBody] User user)
         {
-            _service.Update(id, user);
-            return Ok();
+            var result = _service.Update(id, user);
+            if (result != null)
+                return result;
+            else
+                return NotFound();
         }
 
         [HttpPut]
-        [Route("UpdatePass")]
+        [Route("{id}/UpdatePass")]
         [ProducesResponseType(typeof(object), (int)HttpStatusCode.OK)]
-        [ProducesResponseType(typeof(ArgumentOutOfRangeException), (int)HttpStatusCode.NotFound)]
-        public ActionResult PutPass([FromBody] User user)
+        [ProducesResponseType((int)HttpStatusCode.NotFound)]
+        public dynamic PutPass(int id, [FromBody] User user)
         {
-            _service.UpdatePassword(user);
-            return Ok();
+            var result = _service.UpdatePassword(id, user);
+
+            if (result > 0)
+                return Ok();
+            else
+                return NotFound();
         }
 
         [HttpDelete]
         [Route("{id}")]
         [ProducesResponseType(typeof(object), (int)HttpStatusCode.OK)]
-        [ProducesResponseType(typeof(ArgumentOutOfRangeException), (int)HttpStatusCode.NotFound)]
-        public ActionResult Delete(int id)
+        [ProducesResponseType((int)HttpStatusCode.NotFound)]
+        public dynamic Delete(int id)
         {
-            _service.Delete(id);
-            return Ok();
+            var result = _service.Delete(id);
+
+            if (result > 0)
+                return Ok();
+            else
+                return NotFound();
         }
     }
 }

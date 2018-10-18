@@ -8,12 +8,11 @@ C:\GIT\CrudApiRest\CrudApiRest.WebApi\bin\Debug\netcoreapp2.0\CrudApiRest.Shared
 C:\GIT\CrudApiRest\CrudApiRest.WebApi\bin\Debug\netcoreapp2.0\CrudApiRest.Application.pdb
 C:\GIT\CrudApiRest\CrudApiRest.WebApi\bin\Debug\netcoreapp2.0\CrudApiRest.Data.pdb
 C:\GIT\CrudApiRest\CrudApiRest.WebApi\bin\Debug\netcoreapp2.0\CrudApiRest.Shared.Common.pdb
-C:\GIT\CrudApiRest\CrudApiRest.WebApi\obj\Debug\netcoreapp2.0\CrudApiRest.WebApi.csprojAssemblyReference.cache
 C:\GIT\CrudApiRest\CrudApiRest.WebApi\obj\Debug\netcoreapp2.0\CrudApiRest.WebApi.csproj.CoreCompileInputs.cache
 C:\GIT\CrudApiRest\CrudApiRest.WebApi\obj\Debug\netcoreapp2.0\CrudApiRest.WebApi.AssemblyInfoInputs.cache
 C:\GIT\CrudApiRest\CrudApiRest.WebApi\obj\Debug\netcoreapp2.0\CrudApiRest.WebApi.AssemblyInfo.cs
-C:\GIT\CrudApiRest\CrudApiRest.WebApi\obj\Debug\netcoreapp2.0\CrudApiRest.WebApi.csproj.CopyComplete
 C:\GIT\CrudApiRest\CrudApiRest.WebApi\bin\Debug\netcoreapp2.0\CrudApiRest.WebApi.pdb
 C:\GIT\CrudApiRest\CrudApiRest.WebApi\bin\Debug\netcoreapp2.0\CrudApiRest.WebApi.xml
 C:\GIT\CrudApiRest\CrudApiRest.WebApi\obj\Debug\netcoreapp2.0\CrudApiRest.WebApi.dll
 C:\GIT\CrudApiRest\CrudApiRest.WebApi\obj\Debug\netcoreapp2.0\CrudApiRest.WebApi.pdb
+C:\GIT\crudApiRest\CrudApiRest.WebApi\obj\Debug\netcoreapp2.0\CrudApiRest.WebApi.csprojResolveAssemblyReference.cache

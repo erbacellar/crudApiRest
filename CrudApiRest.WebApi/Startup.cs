@@ -2,8 +2,10 @@
 using CrudApiRest.Application.Services;
 using CrudApiRest.Data.Interfaces;
 using CrudApiRest.Data.Repository;
+using CrudApiRest.Data.Context;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Swashbuckle.AspNetCore.Swagger;
@@ -23,12 +25,22 @@ namespace CrudApiRest.WebApi
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-
             services.AddMvc();
+            ContextDbConfig(services);
+            IocServices(services);
+            SetupSwagger(services);
+            SetupCorsPolicy(services);
+        }
+
+        private static void IocServices(IServiceCollection services)
+        {
             services.AddScoped<IUserService, UserService>();
             services.AddScoped<IUserRepository, UserRepository>();
             services.AddSingleton<IMockData, MockData>();
+        }
 
+        private static void SetupSwagger(IServiceCollection services)
+        {
             services.ConfigureSwaggerGen(x =>
             {
                 x.IncludeXmlComments("CrudApiRest.WebApi.xml");
@@ -51,14 +63,22 @@ namespace CrudApiRest.WebApi
                 });
 
             });
+        }
 
+        private static void SetupCorsPolicy(IServiceCollection services)
+        {
             services.AddCors(options => options.AddPolicy("CorsPolicy",
-                                builder => builder.AllowAnyHeader()
-                                .AllowAnyOrigin()
-                                .AllowAnyMethod()
-                                .AllowCredentials()
-            ));
+                                            builder => builder.AllowAnyHeader()
+                                            .AllowAnyOrigin()
+                                            .AllowAnyMethod()
+                                            .AllowCredentials()
+                        ));
+        }
 
+        private void ContextDbConfig(IServiceCollection services)
+        {
+            services.AddDbContext<DbUsersContext>(options => options.UseSqlServer(Configuration.GetConnectionString("UsersDb")));
+            services.AddScoped<IDbUsersContext>(provider => provider.GetService<DbUsersContext>());
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

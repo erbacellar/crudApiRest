@@ -5,10 +5,9 @@ C:\GIT\CrudApiRest\CrudApiRest.Application\bin\Debug\netcoreapp2.0\CrudApiRest.D
 C:\GIT\CrudApiRest\CrudApiRest.Application\bin\Debug\netcoreapp2.0\CrudApiRest.Shared.Common.dll
 C:\GIT\CrudApiRest\CrudApiRest.Application\bin\Debug\netcoreapp2.0\CrudApiRest.Data.pdb
 C:\GIT\CrudApiRest\CrudApiRest.Application\bin\Debug\netcoreapp2.0\CrudApiRest.Shared.Common.pdb
-C:\GIT\CrudApiRest\CrudApiRest.Application\obj\Debug\netcoreapp2.0\CrudApiRest.Application.csprojAssemblyReference.cache
 C:\GIT\CrudApiRest\CrudApiRest.Application\obj\Debug\netcoreapp2.0\CrudApiRest.Application.csproj.CoreCompileInputs.cache
 C:\GIT\CrudApiRest\CrudApiRest.Application\obj\Debug\netcoreapp2.0\CrudApiRest.Application.AssemblyInfoInputs.cache
 C:\GIT\CrudApiRest\CrudApiRest.Application\obj\Debug\netcoreapp2.0\CrudApiRest.Application.AssemblyInfo.cs
-C:\GIT\CrudApiRest\CrudApiRest.Application\obj\Debug\netcoreapp2.0\CrudApiRest.Application.csproj.CopyComplete
 C:\GIT\CrudApiRest\CrudApiRest.Application\obj\Debug\netcoreapp2.0\CrudApiRest.Application.dll
 C:\GIT\CrudApiRest\CrudApiRest.Application\obj\Debug\netcoreapp2.0\CrudApiRest.Application.pdb
+C:\GIT\crudApiRest\CrudApiRest.Application\obj\Debug\netcoreapp2.0\CrudApiRest.Application.csprojResolveAssemblyReference.cache

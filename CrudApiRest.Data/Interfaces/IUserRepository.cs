@@ -7,6 +7,6 @@ namespace CrudApiRest.Data.Interfaces
 {
     public interface IUserRepository : IGenericCrudRepository<User>
     {
-        void UpdatePassword(User user);
+        int UpdatePassword(int id, User user);
     }
 }

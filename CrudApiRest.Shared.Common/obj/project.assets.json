@@ -1017,30 +1017,34 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\erbacellar\\.nuget\\packages\\": {},
+    "C:\\Users\\1513 IRON\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
+    "restoreSettings": {
+      "hideWarningsAndErrors": true
+    },
     "restore": {
-      "projectUniqueName": "C:\\GIT\\teste\\crudApiRest\\CrudApiRest.Shared.Common\\CrudApiRest.Shared.Common.csproj",
+      "projectUniqueName": "C:\\GIT\\crudApiRest\\CrudApiRest.Shared.Common\\CrudApiRest.Shared.Common.csproj",
       "projectName": "CrudApiRest.Shared.Common",
-      "projectPath": "C:\\GIT\\teste\\crudApiRest\\CrudApiRest.Shared.Common\\CrudApiRest.Shared.Common.csproj",
-      "packagesPath": "C:\\Users\\erbacellar\\.nuget\\packages\\",
-      "outputPath": "C:\\GIT\\teste\\crudApiRest\\CrudApiRest.Shared.Common\\obj\\",
+      "projectPath": "C:\\GIT\\crudApiRest\\CrudApiRest.Shared.Common\\CrudApiRest.Shared.Common.csproj",
+      "packagesPath": "C:\\Users\\1513 IRON\\.nuget\\packages\\",
+      "outputPath": "C:\\GIT\\crudApiRest\\CrudApiRest.Shared.Common\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\erbacellar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\1513 IRON\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.0"
       ],
       "sources": {
-        "https://www.nuget.org/api/v2/": {}
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "netcoreapp2.0": {
@@ -1058,12 +1062,12 @@
         "dependencies": {
           "Microsoft.AspNetCore.Http": {
             "target": "Package",
-            "version": "[2.1.1, )"
+            "version": "2.1.1"
           },
           "Microsoft.NETCore.App": {
             "suppressParent": "All",
             "target": "Package",
-            "version": "[2.0.0, )",
+            "version": "2.0",
             "autoReferenced": true
           }
         },

@@ -11,6 +11,6 @@ namespace CrudApiRest.Application.Interfaces
         dynamic List(PagingData paging);
         dynamic Update(int id, T param);
         dynamic Insert(T param);
-        void Delete(int id);
+        int Delete(int id);
     }
 }

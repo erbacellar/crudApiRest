@@ -10,9 +10,9 @@ namespace CrudApiRest.Data.Interfaces
         IEnumerable<dynamic> List(PagingData paging);
         IEnumerable<dynamic> ListByFilter(PagingData paging);
         TModel FindById(int id);
-        TModel Update(TModel model);
+        TModel Update(int id, TModel model);
         TModel Insert(TModel model);
-        void Delete(int id);
+        int Delete(int id);
         Expression<Func<TModel, bool>> Condition(PagingData paging);
     }
 }

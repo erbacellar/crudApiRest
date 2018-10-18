@@ -7,6 +7,7 @@ namespace CrudApiRest.Application.Interfaces
 {
     public interface IUserService : IBaseService<User>
     {
-        void UpdatePassword(User user);
+        int UpdatePassword(int id, User user);
+        dynamic GetJwtToken(int id);
     }
 }

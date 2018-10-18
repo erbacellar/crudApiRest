@@ -10,7 +10,6 @@ namespace CrudApiRest.Data.Models
         public string Name { get; set; }
         public string Login { get; set; }
         public string Password { get; set; }
-        public string PasswordEncrypt { get; set; }
         public string Salt { get; set; }
     }
 }

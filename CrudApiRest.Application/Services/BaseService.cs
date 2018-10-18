@@ -30,7 +30,7 @@ namespace CrudApiRest.Application.Services
 
         public virtual dynamic Update(int id, T param)
         {
-            return _repository.Update(param);
+            return _repository.Update(id, param);
         }
 
         public virtual dynamic Insert(T param)
@@ -38,9 +38,9 @@ namespace CrudApiRest.Application.Services
             return _repository.Insert(param);
         }
 
-        public virtual void Delete(int id)
+        public virtual int Delete(int id)
         {
-            _repository.Delete(id);
+            return _repository.Delete(id);
         }
     }
 }

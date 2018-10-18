@@ -54,7 +54,6 @@ namespace CrudApiRest.Data.Repository
         {
             var userBd = GetById(user.Id);
             userBd.Password = user.Password;
-            userBd.PasswordEncrypt = user.PasswordEncrypt;
             userBd.Salt = user.Salt;
         }
     }

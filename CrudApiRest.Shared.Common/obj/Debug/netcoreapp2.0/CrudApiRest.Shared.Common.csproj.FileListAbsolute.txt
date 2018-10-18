@@ -6,4 +6,3 @@ C:\GIT\CrudApiRest\CrudApiRest.Shared.Common\obj\Debug\netcoreapp2.0\CrudApiRest
 C:\GIT\CrudApiRest\CrudApiRest.Shared.Common\obj\Debug\netcoreapp2.0\CrudApiRest.Shared.Common.AssemblyInfo.cs
 C:\GIT\CrudApiRest\CrudApiRest.Shared.Common\obj\Debug\netcoreapp2.0\CrudApiRest.Shared.Common.dll
 C:\GIT\CrudApiRest\CrudApiRest.Shared.Common\obj\Debug\netcoreapp2.0\CrudApiRest.Shared.Common.pdb
-C:\GIT\CrudApiRest\CrudApiRest.Shared.Common\obj\Debug\netcoreapp2.0\CrudApiRest.Shared.Common.csprojAssemblyReference.cache
