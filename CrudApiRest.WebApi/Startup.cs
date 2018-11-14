@@ -10,6 +10,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Swashbuckle.AspNetCore.Swagger;
 using System.Globalization;
+using System.Collections.Generic;
 
 namespace CrudApiRest.WebApi
 {
@@ -62,6 +63,23 @@ namespace CrudApiRest.WebApi
                     }
                 });
 
+                var security = new Dictionary<string, IEnumerable<string>>
+                {
+                    {"Bearer", new string[] { }},
+                };
+
+                options.AddSecurityDefinition(
+                    "Bearer",
+                    new ApiKeyScheme
+                    {
+                        In = "header",
+                        Description = "Insert 'Bearer' + 'token' into field",
+                        Name = "Authorization",
+                        Type = "apiKey"
+                    });
+
+                options.AddSecurityRequirement(security);
+
             });
         }
 
@@ -91,7 +109,6 @@ namespace CrudApiRest.WebApi
               .UseSwaggerUI(c =>
               {
                   c.SwaggerEndpoint("v1/swagger.json", "API V1");
-                  c.DocExpansion("none");
               });
 
             // Adicionando CORS

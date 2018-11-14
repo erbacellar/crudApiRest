@@ -26,6 +26,7 @@ namespace CrudApiRest.WebApi.Controllers
         [ProducesResponseType((int)HttpStatusCode.InternalServerError)]
         public IEnumerable<User> Get(PagingData paging)
         {
+            var headers = HttpContext.Request.Headers;
             return _service.List(paging);
         }
 
